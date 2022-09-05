@@ -2,6 +2,7 @@ package example
 
 import "fmt"
 
+// go test -v
 func ExampleHello() {
 	greeting := Hello("Karthick")
 	fmt.Println(greeting)
