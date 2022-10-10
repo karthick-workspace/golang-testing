@@ -11,6 +11,7 @@ func adder() func(int) int {
 }
 
 func main() {
+	//To test commit
 	add := adder()
 	fmt.Println(add(10))
 }
